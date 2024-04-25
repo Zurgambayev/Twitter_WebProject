@@ -1,0 +1,30 @@
+
+.sidebar{
+  font-family: sans-serif;
+  position: absolute;
+  width: 225px;
+  height: 1800px;
+  left: 30px;
+  max-height: calc(100% - 20px);
+  margin: auto;
+  border-radius:30px;
+  border: 1px solid white;
+  background: #f2f2f2;
+  color:black;
+}
+ul{
+  font-size:1.2em;
+  list-style-type:none;
+}
+.li{
+  display:flex;
+  flex-direction: column;
+}
+.element-li{
+  position:relative;
+  padding:7px;
+}
+.image-item{
+  position:relative;
+  top:10px;
+}

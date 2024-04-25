@@ -1,0 +1,22 @@
+<app-sidebar></app-sidebar>
+<head>
+
+  <title>Settings</title>
+</head>
+<body>
+  <h1>Settings</h1>
+  <div class="container">
+    <form>
+      <label> Phone Number:</label><br>
+      <input type="text" name="phone_number" [(ngModel)]="phone_number"><br>
+      <br>
+      <button (click)="update()">Submit</button>
+    </form>
+    <form class="avatar">
+      <img src="assets/noavatar.png" width="200"> <br>
+      <!--      <label> Profile Picture image address: </label> <br>-->
+      <!--      <input type="url" name="profile_picture" ngModel placeholder="{{this.user.profile_picture}}"> <br>-->
+      <button> change profile picture</button>
+    </form>
+  </div>
+</body>
